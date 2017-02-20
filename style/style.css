@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color: #BDBDBD;
+    border: 1px solid #7f8c8d;
+    padding: 0.3em 1em;
+}
+td {
+    border: 1px solid #7f8c8d;
+}
+.max, .byte, .result {
+    text-align: center;
+}
+.Name {
+    padding: 0.2em 1em;
+}
+.Text .input {
+    width: 40em;
+}

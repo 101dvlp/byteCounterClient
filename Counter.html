@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WINクライアント情報　文字数カウンター</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <script type="text/javascript" src="./js/Counter.js"></script>
+</head>
+<body>
+<p>WINクライアントの項目文字数をカウントします</p>
+<table>
+    <tr>
+        <th>
+            項目名
+        </th>
+        <th>
+            ここに貼付け
+        </th>
+        <th>
+            結果
+        </th>
+        <th>
+            byte
+        </th>
+        <th>
+            max
+        </th>
+    </tr>
+    <tr>
+        <td id="clientName" class="Name">
+            クライアント略称
+        </td>
+        <td id="clientText" class="Text">
+            <input type="text" name="clientText" id="clientNameText" class="input" onblur="clientName()">
+        </td>
+        <td id="clientResult" class="result">
+        </td>
+        <td id="clientByte" class="byte">
+        </td>
+        <td id="clientMax" class="max">
+            <span id="maxClient">40</span>
+        </td>
+    </tr>
+    <tr>
+        <td id="chargeName" class="Name">
+            請求先名
+        </td>
+        <td id="chargeText" class="Text">
+            <input type="text" name="chargeText" id="chargeNameText" class="input" onblur="chargeName()">
+        </td>
+        <td id="chargeResult" class="result">
+        </td>
+        <td id="chargeByte" class="byte">
+        </td>
+        <td id="chargeMax" class="max">
+            40
+        </td>
+    </tr>
+</table>
+</body>
+</html>
